@@ -4,7 +4,10 @@
 	"description": "some example QOL extension commands",
 	"version": "0.4.0",
 	"icon": "images/icon.png",
-	"repository": "https://github.com/ant290/hellocode.git",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ant290/hellocode.git"
+	},
 	"publisher": "helloCodePublisher",
 	"engines": {
 		"vscode": "^1.32.0"

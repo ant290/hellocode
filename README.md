@@ -22,19 +22,10 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+This is an in progress demo of a VSCode extension.
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+### <1.0.0
+First Deployments and basic command functionality.
 
 -----------------------------------------------------------------------------------------------------------
 
