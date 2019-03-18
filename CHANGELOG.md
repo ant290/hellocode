@@ -6,9 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+##[0.4.0] - 2019-03-18
 - Initial release
 
-##[0.0.5] - date
+##[0.0.5] - 2019-03-18
 ###Added
 - Categories on commands
 
