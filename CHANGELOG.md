@@ -6,6 +6,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+
+##[0.6.0] - 2019-03-18
+###Added
+-keyword tags
+
+##[0.5.0] - 2019-03-18
+###Changed
+- readme tidyup
+
 ##[0.4.0] - 2019-03-18
 - Initial release
 

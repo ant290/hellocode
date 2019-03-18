@@ -4,12 +4,14 @@ This is my example extension "hellocode". Its great, and does so many things.
 
 ## Features
 
+###AngularCLI
 --ng test, runs an ng test in the terminal
 
 --ng serve open, ruins an ng s -o in the terminal
 
 --ng build, runs an ng build --prod in the terminal
 
+###ExampleWork
 --create boilerplate, creates and opens a new index.html in the workspace folder
 
 --Oh Noes, shows a warning
