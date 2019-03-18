@@ -1,0 +1,81 @@
+{
+	"name": "hellocode",
+	"displayName": "helloCode",
+	"description": "some example QOL extension commands",
+	"version": "0.0.4",
+	"icon": "images/icon.png",
+	"publisher": "Ant290",
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*",
+		"onCommand:extension.helloWorld"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "helloCode.helloWorld",
+				"title": "Hello World",
+				"category": "bleh"
+			},
+			{
+				"command": "helloCode.ohNoes",
+				"title": "Oh Noes",
+				"category": "bleh"
+			},
+			{
+				"command": "helloCode.createBoilerPlate",
+				"title": "Create BoilerPlate",
+				"category": "bleh"
+			},
+			{
+				"command": "helloCode.ngBuild",
+				"title": "ng build",
+				"category": "Angular"
+			},
+			{
+				"command": "helloCode.ngServeOpen",
+				"title": "ng serve open",
+				"category": "Angular"
+			},
+			{
+				"command": "helloCode.ngTest",
+				"title": "ng test",
+				"category": "Angular"
+			}
+		],
+		"keybindings":[
+			{
+				"command": "helloCode.ngBuild",
+				"key": "",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "helloCode.ngServeOpen",
+				"key": "",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "helloCode.ngTest",
+				"key": "",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"eslint": "^5.13.0",
+		"@types/node": "^10.12.21",
+		"@types/mocha": "^2.2.42"
+	}
+}
