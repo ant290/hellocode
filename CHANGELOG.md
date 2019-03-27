@@ -6,6 +6,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+##[0.7.0] - 2019-03-27
+###Added
+-context menu entries for typescript files
 
 ##[0.6.0] - 2019-03-18
 ###Added
