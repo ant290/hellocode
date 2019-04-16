@@ -55,6 +55,11 @@
 				"command": "helloCode.ngTest",
 				"title": "ng test",
 				"category": "Angular"
+			},
+			{
+				"command": "helloCode.findCSS",
+				"title": "Find CSS Style",
+				"category": "Web"
 			}
 		],
 		"menus": {
@@ -72,6 +77,11 @@
 				{
 					"when": "resourceExtname == .ts",
 					"command": "helloCode.ngBuild",
+					"group": "helloCode"
+				},
+				{
+					"when": "resourceExtname == .html",
+					"command": "helloCode.findCSS",
 					"group": "helloCode"
 				}
 			]
@@ -91,6 +101,11 @@
 				"command": "helloCode.ngTest",
 				"key": "",
 				"when": "editorTextFocus"
+			},
+			{
+				"command": "helloCode.findCSS",
+				"key": "",
+				"when": "editorHasSelection"
 			}
 		]
 	},

@@ -1,6 +1,7 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 const vscode = require('vscode');
+const editor = vscode.window.activeTextEditor;
 //modules for createBoilerPlate
 const fs = require("fs");
 //const path = require("path");
@@ -115,6 +116,25 @@ function activate(context) {
 			wind.terminals[0].show();
 		}
 		vscode.window.terminals[0].sendText('ng test');
+	});
+
+	context.subscriptions.push(disposable);
+
+	//searches for a css item and opens css file to that location
+	disposable = vscode.commands.registerCommand('helloCode.findCSS', function (){
+		//get the current selection
+		//todo: get the current word, regardless of it being selected
+		let text = '#' + editor.document.getText(editor.selection);
+
+		
+
+		vscode.commands.executeCommand("vscode.executeWorkspaceSymbolProvider", text).then(
+			function (symbols){
+				symbols.forEach(s => {
+					console.log(s);
+				});
+			}
+		)
 	});
 
 	context.subscriptions.push(disposable);
