@@ -7,6 +7,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 -right click on css class in html file to find usages of that class in .css files in open folder
 
+##[0.8.0] - date
+-Keywords and Categories added
+
 ##[0.7.0] - 2019-03-27
 ###Added
 -context menu entries for typescript files

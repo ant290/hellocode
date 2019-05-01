@@ -13,11 +13,14 @@
 		"vscode": "^1.32.0"
 	},
 	"categories": [
-		"Other"
+		"Other",
+		"Programming Languages",
+		"terminal"
 	],
 	"keywords": [
 		"Angular",
-		"example"
+		"example",
+		"terminal"
 	],
 	"activationEvents": [
 		"*",
@@ -80,7 +83,7 @@
 					"group": "helloCode"
 				},
 				{
-					"when": "resourceExtname == .html",
+					"when": "resourceExtname == .html && editorHasSelection",
 					"command": "helloCode.findCSS",
 					"group": "helloCode"
 				}
